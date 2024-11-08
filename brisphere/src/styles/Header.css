@@ -1,0 +1,119 @@
+/* Header Layout */
+.header {
+  padding: 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.header-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.header-content p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  color: #555;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.image-section {
+  
+  padding: 20px;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  height: 50vh;
+  margin-left: 350px;
+}
+
+/* Booking Form */
+.order-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 50%;
+  margin: 30px auto 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.button1 {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.button1:hover {
+  background-color: #0056b3;
+}
+.lifacebook{
+  font-size: 40px;
+}

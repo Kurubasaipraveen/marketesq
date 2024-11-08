@@ -1,0 +1,94 @@
+.confirmation-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 110px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  img{
+    height: 100px;
+  }
+  .user-details h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .order-status {
+    text-align: right;
+  }
+  
+  .order-status p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2d7a2b;
+  }
+  
+  .order-status .checkmark {
+    font-size: 2rem;
+    color: #2d7a2b;
+    display: block;
+  }
+  
+  .order-status a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .order-status a:hover {
+    text-decoration: underline;
+  }
+  
+  .booking-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .details {
+    text-align: center;
+  }
+  
+  .details h4 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .details p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+  }
+  
+  .price {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+  }
+  

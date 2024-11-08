@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #f5f5f5;
+  padding: 2rem;
+  text-align: center;
+}
+
+.order-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.discover,
+.services {
+  padding: 2rem;
+  text-align: center;
+}
+
+.profiles,
+.service-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.profile-card,
+.service-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}

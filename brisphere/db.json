@@ -1,0 +1,28 @@
+{
+  "bookings": [
+    {
+      "id": "a3da",
+      "name": "Saipraveen Kuruba",
+      "email": "ksaipraveen6@gmail.com",
+      "phone": "08660911386",
+      "adults": 1,
+      "children": 0,
+      "checkIn": "2024-11-08",
+      "checkOut": "2024-11-15",
+      "rooms": 6
+    }
+  ],
+  "confirm": [
+    {
+      "id": "b138",
+      "name": "Saipraveen Kuruba",
+      "email": "ksaipraveen6@gmail.com",
+      "phone": "08660911386",
+      "adults": 1,
+      "children": 0,
+      "checkIn": "2024-11-08",
+      "checkOut": "2024-11-15",
+      "rooms": 6
+    }
+  ]
+}
