@@ -65,7 +65,7 @@ const BookingForm = () => {
     console.log("Submitting booking:", formData);
   
     try {
-      const response = await fetch("http://localhost:5000/confirm", {
+      const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

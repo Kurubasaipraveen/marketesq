@@ -26,7 +26,7 @@ const Header = () => {
     const bookingData = { checkIn, checkOut, rooms };
 
     try {
-      const response = await axios.post("http://localhost:5000/bookings", bookingData);
+      const response = await axios.post("https://jsonplaceholder.typicode.com/posts", bookingData);
       alert(`Booking stored successfully with ID: ${response.data.id}`);
       navigate('./booking');
     } catch (error) {
