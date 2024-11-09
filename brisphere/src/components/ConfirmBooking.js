@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../styles/ConfirmBooking.css"; // Import your CSS file
+import "../styles/ConfirmBooking.css"; 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 const ConfirmBooking = () => {
@@ -8,12 +8,10 @@ const ConfirmBooking = () => {
   useEffect(() => {
     const fetchBooking = async () => {
       try {
-        const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+        const response = await fetch("");
         const data = await response.json();
-        console.log("Fetched Booking Data:", data); // Debugging
-        
-        // Assuming the response is an array, and we need the first object
-        setBooking(data[0]); // Adjust according to the structure of your data
+        console.log("Fetched Booking Data:", data);
+        setBooking(data[0]); 
       } catch (error) {
         console.error("Error fetching booking confirmation:", error);
       }
@@ -33,8 +31,8 @@ const ConfirmBooking = () => {
       <div className="header">
         <div className="user-details">
           <h3>{booking.name || "N/A"}</h3>
-          <p>📞 {booking.phone || "N/A"}</p>
-          <p>📧 {booking.email || "N/A"}</p>
+          <p> {booking.phone || "N/A"}</p>
+          <p> {booking.email || "N/A"}</p>
           <p>
             {booking.adults || 0} Adults and {booking.children || 0} Children
           </p>

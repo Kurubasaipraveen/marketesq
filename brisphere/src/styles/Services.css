@@ -10,11 +10,11 @@
   
   .service-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Ensures 3 cards per row */
-    gap: 2rem; /* Adjusted gap for a balanced look */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem;
     justify-items: center;
     margin: 0 auto;
-    max-width: 1200px; /* Optional: center grid and limit width */
+    max-width: 1200px;
   }
   
   .service-card {
