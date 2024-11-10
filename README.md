@@ -14,7 +14,7 @@ Redux: For state management.
 JavaScript (ES6): For logic and functionality.
 CSS: For styling the application.
 Bootstrap Icons: For adding intuitive icons.
-REST API: Communicates with the backend API hosted at http://localhost:5000/bookings.
+REST API: Communicates with the backend API hosted at https://jsonplaceholder.typicode.com/posts.
 
 
 How to Use
